@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tommy Tsz-Ming Lee</title>
+    <link>http://tszminglee.github.io/</link>
+    <description>Recent content on Tommy Tsz-Ming Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Dec 2018 11:06:04 +0800</lastBuildDate>
+    
+	<atom:link href="http://tszminglee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Misc</title>
+      <link>http://tszminglee.github.io/misc/</link>
+      <pubDate>Thu, 20 Dec 2018 11:06:04 +0800</pubDate>
+      
+      <guid>http://tszminglee.github.io/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>http://tszminglee.github.io/cv/</link>
+      <pubDate>Thu, 20 Dec 2018 11:05:46 +0800</pubDate>
+      
+      <guid>http://tszminglee.github.io/cv/</guid>
+      <description>Full CV.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://tszminglee.github.io/research/</link>
+      <pubDate>Thu, 20 Dec 2018 11:05:34 +0800</pubDate>
+      
+      <guid>http://tszminglee.github.io/research/</guid>
+      <description>My work can also be found here.
+Papers and publications  ‘Defocalization in Cantonese right dislocation’  (2017)[link] Gengo Kenkyu 152: 59-87. DOI: 10.11435/gengo.152.0_59 .   Presentations   ‘Head movement with semantic effects: Aspectual verb raising in Cantonese’ [link to handout]
+oral presentation at The 93rd Annual Meeting of the Linguistic Society of America, New York City, 3-6 Jan, 2019.
+ ‘Decomposing wh-expressions in Cantonese&amp;rsquo;
+oral presentation at The 11th Cross-Strait Symposium on Modern Chinese Language, The Chinese University of Hong Kong, 7-8 Dec, 2018.</description>
+    </item>
+    
+  </channel>
+</rss>
