@@ -6,10 +6,21 @@
     <description>Recent content on Tommy Tsz-Ming Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Dec 2018 11:06:04 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 17:21:01 -0800</lastBuildDate>
     
 	<atom:link href="https://tszminglee.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Papers</title>
+      <link>https://tszminglee.github.io/papers/</link>
+      <pubDate>Tue, 15 Dec 2020 17:21:01 -0800</pubDate>
+      
+      <guid>https://tszminglee.github.io/papers/</guid>
+      <description>Manuscripts (Email me for a draft)  Under revision. Asymmetries in doubling and Cyclic Linearization. [Lingbuzz]  In prep. Aspectual verbs in Cantonese: a split aspect analysis. [with Victor Junnan Pan]  In prep. Epistemic indefinites in Cantonese: a case study of mzi  In prep. Hyperraising, evidentiality and phase deactivation. [with Ka-Fai Yip]
+Publications Papers:  2017. Defocalization in Cantonese right dislocation. Gengo Kenkyu 152: 59-87.
+Proceedings: 2020. TITLE. CONFERENCE.</description>
+    </item>
     
     <item>
       <title>Misc</title>
@@ -30,14 +41,17 @@
     </item>
     
     <item>
-      <title>Research</title>
-      <link>https://tszminglee.github.io/research/</link>
+      <title>Presentations</title>
+      <link>https://tszminglee.github.io/presentations/</link>
       <pubDate>Thu, 20 Dec 2018 11:05:34 +0800</pubDate>
       
-      <guid>https://tszminglee.github.io/research/</guid>
-      <description>here. -- Manuscripts (Email me for a draft)  Under revision. Asymmetries in doubling and Cyclic Linearization.  In prep. Aspectual verbs in Cantonese: a split aspect analysis. [with Victor Pan]  In prep. Epistemic indefinites in Cantonese: a case study of mzi  In prep. Hyperraising, evidentiality and phase deactivation. [with Ka-Fai Yip]
-Publications Papers:  2017. Defocalization in Cantonese right dislocation. Gengo Kenkyu 152: 59-87.
-Proceedings: 2020. TITLE. CONFERENCE.</description>
+      <guid>https://tszminglee.github.io/presentations/</guid>
+      <description>here. -- 2020. TITLE, at CONFERENCE, UNI. -- 2020
+ Movement of quantificational heads, at NELS 51, UQAM (webinar).
+ Strength in deontic modals as acceptability and optimality, at NACCL-32, UConn (webinar).
+ Generalized Scope Economy, at NACCL 32, UConn (webinar). [with Ka-Fai Yip] 
+ Hyperraising and evidentiality, at SICOGG 22, Gyeongsang National University (webinar). [with Ka-Fai Yip] 
+ Generalized Scope Economy, at SICOGG 22, Gyeongsang National University (webinar).</description>
     </item>
     
     <item>
