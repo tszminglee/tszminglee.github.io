@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcasts on Tommy Tsz-Ming Lee</title>
+    <link>https://tszminglee.github.io/podcast/</link>
+    <description>Recent content in Podcasts on Tommy Tsz-Ming Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Dec 2018 16:34:50 +0800</lastBuildDate>
+    
+	<atom:link href="https://tszminglee.github.io/podcast/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EP01</title>
+      <link>https://tszminglee.github.io/podcast/ep01/</link>
+      <pubDate>Wed, 19 Dec 2018 16:34:50 +0800</pubDate>
+      
+      <guid>https://tszminglee.github.io/podcast/ep01/</guid>
+      <description>This is EP01.</description>
+    </item>
+    
+    <item>
+      <title>EP02</title>
+      <link>https://tszminglee.github.io/podcast/ep02/</link>
+      <pubDate>Wed, 19 Dec 2018 16:34:50 +0800</pubDate>
+      
+      <guid>https://tszminglee.github.io/podcast/ep02/</guid>
+      <description>This is EP02.</description>
+    </item>
+    
+    <item>
+      <title>EP03</title>
+      <link>https://tszminglee.github.io/podcast/ep03/</link>
+      <pubDate>Wed, 19 Dec 2018 16:34:50 +0800</pubDate>
+      
+      <guid>https://tszminglee.github.io/podcast/ep03/</guid>
+      <description>This is EP03.</description>
+    </item>
+    
+  </channel>
+</rss>
