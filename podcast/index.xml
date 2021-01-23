@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Podcasts on Tommy Tsz-Ming Lee</title>
+    <title>Podcast on Tommy Tsz-Ming Lee</title>
     <link>https://tszminglee.github.io/podcast/</link>
-    <description>Recent content in Podcasts on Tommy Tsz-Ming Lee</description>
+    <description>Recent content in Podcast on Tommy Tsz-Ming Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Dec 2018 16:34:50 +0800</lastBuildDate>
@@ -17,7 +17,8 @@
       <pubDate>Wed, 19 Dec 2018 16:34:50 +0800</pubDate>
       
       <guid>https://tszminglee.github.io/podcast/ep01/</guid>
-      <description>This is EP01.</description>
+      <description>This is EP01.
+ </description>
     </item>
     
     <item>
