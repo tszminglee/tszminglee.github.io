@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Tommy Tsz-Ming Lee 李梓明">
+    <meta name="description" content="簡介
+大草原上，你望到遠方有隻羊，然後你指住嗰度話：「嗰度有隻羊。」如果事實上嗰度真係有隻羊，咁「嗰度有隻羊」似乎就可以稱為（你嘅）知識。但如果實際上你指住嘅只係一舊似羊嘅石（即係你睇錯），咁明顯你就唔再擁有「嗰度有隻羊」嘅知識。又但係，如果咁啱舊石後面真係有隻羊呢？你算唔算擁有知識呢？
+我地討論好出名嘅Gettier problem（葛梯爾問題），睇吓點樣釐定知識的定義。
+by 梓明、Tony
+參考：
+Gettier, Edmund. 1963. Is Justified True Belief Knowledge? Analysis 23:121-123
+後記
+後段有講一個關於我面前嘅杯嘅例子：我望到我面前有一隻杯，我覺得我擁有「我面前有一隻杯」嘅知識。結合埋上次講知識可能會因為環境改變而改變，我地總共就有兩個方法去挑戰呢個（睇落咁明顯嘅）知識。第一種係透過「諗太多」：你點知你望到嘅杯係真實存在嘅呢，點知道隻杯唔係殘影？點知道唔係你嘅感官系統受到干擾？你有冇辦法排除所有可能性？第二種係透過「諗太少」：可能你真係望住隻杯嘅殘影，但咁啱殘影下又真係有隻杯（而你唔知），咁樣仲算唔算係知識？你淨係望到殘影咋喎？你好彩咋喎？我嘅生活從此可以不斷驅逐我（自覺）擁有嘅知識，並且繼續宣稱自己擁有知識。多謝tony，多謝哲學。">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="EP18 - 如果知識有定義"/>
+<meta name="twitter:description" content="簡介
+大草原上，你望到遠方有隻羊，然後你指住嗰度話：「嗰度有隻羊。」如果事實上嗰度真係有隻羊，咁「嗰度有隻羊」似乎就可以稱為（你嘅）知識。但如果實際上你指住嘅只係一舊似羊嘅石（即係你睇錯），咁明顯你就唔再擁有「嗰度有隻羊」嘅知識。又但係，如果咁啱舊石後面真係有隻羊呢？你算唔算擁有知識呢？
+我地討論好出名嘅Gettier problem（葛梯爾問題），睇吓點樣釐定知識的定義。
+by 梓明、Tony
+參考：
+Gettier, Edmund. 1963. Is Justified True Belief Knowledge? Analysis 23:121-123
+後記
+後段有講一個關於我面前嘅杯嘅例子：我望到我面前有一隻杯，我覺得我擁有「我面前有一隻杯」嘅知識。結合埋上次講知識可能會因為環境改變而改變，我地總共就有兩個方法去挑戰呢個（睇落咁明顯嘅）知識。第一種係透過「諗太多」：你點知你望到嘅杯係真實存在嘅呢，點知道隻杯唔係殘影？點知道唔係你嘅感官系統受到干擾？你有冇辦法排除所有可能性？第二種係透過「諗太少」：可能你真係望住隻杯嘅殘影，但咁啱殘影下又真係有隻杯（而你唔知），咁樣仲算唔算係知識？你淨係望到殘影咋喎？你好彩咋喎？我嘅生活從此可以不斷驅逐我（自覺）擁有嘅知識，並且繼續宣稱自己擁有知識。多謝tony，多謝哲學。"/>
+
+    <meta property="og:title" content="EP18 - 如果知識有定義" />
+<meta property="og:description" content="簡介
+大草原上，你望到遠方有隻羊，然後你指住嗰度話：「嗰度有隻羊。」如果事實上嗰度真係有隻羊，咁「嗰度有隻羊」似乎就可以稱為（你嘅）知識。但如果實際上你指住嘅只係一舊似羊嘅石（即係你睇錯），咁明顯你就唔再擁有「嗰度有隻羊」嘅知識。又但係，如果咁啱舊石後面真係有隻羊呢？你算唔算擁有知識呢？
+我地討論好出名嘅Gettier problem（葛梯爾問題），睇吓點樣釐定知識的定義。
+by 梓明、Tony
+參考：
+Gettier, Edmund. 1963. Is Justified True Belief Knowledge? Analysis 23:121-123
+後記
+後段有講一個關於我面前嘅杯嘅例子：我望到我面前有一隻杯，我覺得我擁有「我面前有一隻杯」嘅知識。結合埋上次講知識可能會因為環境改變而改變，我地總共就有兩個方法去挑戰呢個（睇落咁明顯嘅）知識。第一種係透過「諗太多」：你點知你望到嘅杯係真實存在嘅呢，點知道隻杯唔係殘影？點知道唔係你嘅感官系統受到干擾？你有冇辦法排除所有可能性？第二種係透過「諗太少」：可能你真係望住隻杯嘅殘影，但咁啱殘影下又真係有隻杯（而你唔知），咁樣仲算唔算係知識？你淨係望到殘影咋喎？你好彩咋喎？我嘅生活從此可以不斷驅逐我（自覺）擁有嘅知識，並且繼續宣稱自己擁有知識。多謝tony，多謝哲學。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tszminglee.github.io/podcast/ep18/" />
+<meta property="article:published_time" content="2021-04-21T16:35:50+08:00" />
+<meta property="article:modified_time" content="2021-04-21T16:35:50+08:00" />
+
+
+    <title>
+  EP18 - 如果知識有定義 · Tommy Tsz-Ming Lee
+</title>
+
+    
+      <link rel="canonical" href="https://tszminglee.github.io/podcast/ep18/">
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+      integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8/normalize.min.css">
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.f01c647a0d25b40da992a37c3376291185eed8a50ced8c26cc2c0bcfe38c97df.css" integrity="sha256-8Bxkeg0ltA2pkqN8M3YpEYXu2KUM7YwmzCwLz&#43;OMl98=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.126ad3988d46bdae6217a11105b53c9662bca05f39d42d3c0fb366919d334620.css" integrity="sha256-EmrTmI1Gva5iF6ERBbU8lmK8oF851C08D7NmkZ0zRiA=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.59.1" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Tommy Tsz-Ming Lee
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/papers/">Papers</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/talks/">Talks</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/podcast/">Podcast</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>EP18 - 如果知識有定義</h1>
+    </header>
+
+    <iframe src="https://anchor.fm/tszmingtszming/embed/episodes/EP18---evd8bj" height="200px" width="800px" frameborder="0" scrolling="no"></iframe>
+
+<hr />
+
+<p>簡介</p>
+
+<p>大草原上，你望到遠方有隻羊，然後你指住嗰度話：「嗰度有隻羊。」如果事實上嗰度真係有隻羊，咁「嗰度有隻羊」似乎就可以稱為（你嘅）知識。但如果實際上你指住嘅只係一舊似羊嘅石（即係你睇錯），咁明顯你就唔再擁有「嗰度有隻羊」嘅知識。又但係，如果咁啱舊石後面真係有隻羊呢？你算唔算擁有知識呢？</p>
+
+<p>我地討論好出名嘅Gettier problem（葛梯爾問題），睇吓點樣釐定知識的定義。</p>
+
+<p>by 梓明、Tony</p>
+
+<p>參考：</p>
+
+<p>Gettier, Edmund. 1963. Is Justified True Belief Knowledge? Analysis 23:121-123</p>
+
+<hr />
+
+<p>後記</p>
+
+<p>後段有講一個關於我面前嘅杯嘅例子：我望到我面前有一隻杯，我覺得我擁有「我面前有一隻杯」嘅知識。結合埋上次講知識可能會因為環境改變而改變，我地總共就有兩個方法去挑戰呢個（睇落咁明顯嘅）知識。第一種係透過「諗太多」：你點知你望到嘅杯係真實存在嘅呢，點知道隻杯唔係殘影？點知道唔係你嘅感官系統受到干擾？你有冇辦法排除所有可能性？第二種係透過「諗太少」：可能你真係望住隻杯嘅殘影，但咁啱殘影下又真係有隻杯（而你唔知），咁樣仲算唔算係知識？你淨係望到殘影咋喎？你好彩咋喎？我嘅生活從此可以不斷驅逐我（自覺）擁有嘅知識，並且繼續宣稱自己擁有知識。多謝tony，多謝哲學。</p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Email: tszmingl(at)usc(dot)edu</p>
+      
+      
+        ©
+        
+          2018 -
+        
+        2021
+         Tommy Tsz-Ming Lee 李梓明 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
