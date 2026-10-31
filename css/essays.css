@@ -1,0 +1,34 @@
+/* Essays series lists: date | title, matching Podcast */
+.essay-list ul:not(.pagination) li {
+  display: flex;
+  align-items: baseline;
+  gap: 0;
+}
+
+.essay-list ul li .date {
+  display: inline-block;
+  flex: 0 0 11rem;
+  width: 11rem;
+  text-align: right;
+  margin-right: 2.4rem;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.essay-list ul li .title {
+  flex: 1 1 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .essay-list ul:not(.pagination) li {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .essay-list ul li .date {
+    flex: 0 0 7.2rem;
+    width: 7.2rem;
+    text-align: left;
+    margin-right: 1.2rem;
+  }
+}
